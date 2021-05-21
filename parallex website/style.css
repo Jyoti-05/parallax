@@ -1,0 +1,53 @@
+body,html{
+  height: 100%;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 180%;
+  color: slategrey;
+  text-align: center;
+}
+.parallax1{
+    background: url(img/tree-736885__480.jpg); 
+    min-height: 100%;
+
+}
+.parallax2{
+    background: url(img/night-3078326__480.jpg);
+    min-height: 60%;
+}
+.parallax3{
+    background: url(img/lake-1581879__480.jpg);
+    min-height: 40%;
+}
+.parallax4{
+    background: url(img/butterfly-2049567__480.jpg);
+    min-height: 100%;
+} 
+.parallax1, .parallax2, .parallax3, .parallax4{
+    position: relative;
+    opacity: 75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.heading {
+    position: absolute;
+    color: slategray;
+    font-size: 550;
+    top: 30%;
+    width: 100%;
+    text-transform: :uppercase;
+    letter-spacing : 8px;
+    text-shadow:0 0 10px #000;
+}
+heading-sm{
+    position: absolute;
+    top:45%;
+    width:100%;
+    color:#fff;
+    font-size: 250%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
